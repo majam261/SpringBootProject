@@ -1,0 +1,39 @@
+2022-01-25 10:23:28,591 INFO h.s.t.AppointmentTest [main] Starting AppointmentTest using Java 11.0.11 on mzovko-PC with PID 10776 (started by mmlinaric in C:\Privatno\IBM\SportsHall)
+2022-01-25 10:23:28,599 DEBUG h.s.t.AppointmentTest [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-01-25 10:23:28,599 INFO h.s.t.AppointmentTest [main] No active profile set, falling back to default profiles: default
+2022-01-25 10:23:34,848 INFO h.s.t.AppointmentTest [main] Started AppointmentTest in 6.53 seconds (JVM running for 8.125)
+2022-01-25 10:23:34,856 INFO h.s.s.LogJob [scheduling-1] Tue Jan 25 10:23:34 CET 2022
+2022-01-25 10:23:35,326 INFO h.s.c.AppointmentController [main] getAppointmentById, id: 501
+2022-01-25 10:23:35,594 INFO h.s.c.AppointmentController [main] newAppointment
+2022-01-25 10:23:35,626 INFO h.s.c.AppointmentController [main] <AppointmentDto>
+  <id>502</id>
+  <name>kosarka 502</name>
+  <dateFrom>1643382000000</dateFrom>
+  <dateTo>1643385600000</dateTo>
+  <hall/>
+</AppointmentDto>
+
+2022-01-25 10:23:35,657 ERROR o.h.e.j.s.SqlExceptionHelper [SpringApplicationShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-01-25 10:23:35,658 ERROR o.h.e.j.s.SqlExceptionHelper [SpringApplicationShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-01-25 10:23:56,636 INFO h.s.SportshallApplication [main] Starting SportshallApplication using Java 11.0.11 on mzovko-PC with PID 23076 (C:\Privatno\IBM\SportsHall\bin\main started by mmlinaric in C:\Privatno\IBM\SportsHall)
+2022-01-25 10:23:56,644 DEBUG h.s.SportshallApplication [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-01-25 10:23:56,644 INFO h.s.SportshallApplication [main] No active profile set, falling back to default profiles: default
+2022-01-25 10:24:02,559 INFO h.s.s.LogJob [scheduling-1] Tue Jan 25 10:24:02 CET 2022
+2022-01-25 10:24:02,564 INFO h.s.SportshallApplication [main] Started SportshallApplication in 6.252 seconds (JVM running for 7.265)
+2022-01-25 10:24:03,559 INFO h.s.s.DisplayInfoService [scheduling-1] Appointment: Basketball hall info
+2022-01-25 10:24:32,558 INFO h.s.s.LogJob [scheduling-1] Tue Jan 25 10:24:32 CET 2022
+2022-01-25 10:25:02,560 INFO h.s.s.LogJob [scheduling-1] Tue Jan 25 10:25:02 CET 2022
+2022-01-25 10:26:11,587 INFO h.s.SportshallApplication [main] Starting SportshallApplication using Java 11.0.11 on mzovko-PC with PID 31564 (C:\Privatno\IBM\SportsHall\bin\main started by mmlinaric in C:\Privatno\IBM\SportsHall)
+2022-01-25 10:26:11,615 DEBUG h.s.SportshallApplication [main] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-01-25 10:26:11,615 INFO h.s.SportshallApplication [main] No active profile set, falling back to default profiles: default
+2022-01-25 10:26:21,534 INFO h.s.s.LogJob [scheduling-1] Tue Jan 25 10:26:21 CET 2022
+2022-01-25 10:26:21,540 INFO h.s.SportshallApplication [main] Started SportshallApplication in 10.772 seconds (JVM running for 12.941)
+2022-01-25 10:26:21,841 INFO h.s.c.InitDataController [http-nio-8080-exec-1] test
+2022-01-25 10:26:21,868 INFO h.s.s.DBDataInitService [task-1] generateDbData - async method example
+2022-01-25 10:26:22,535 INFO h.s.s.DisplayInfoService [scheduling-1] Appointment: Basketball hall info
+2022-01-25 10:26:24,377 INFO h.s.c.HallController [http-nio-8080-exec-2] getHalls
+2022-01-25 10:26:28,781 INFO h.s.l.LoggingInterceptor [http-nio-8080-exec-3] Method : getAppointments started.
+2022-01-25 10:26:28,790 INFO h.s.c.AppointmentController [http-nio-8080-exec-3] getAppointments
+2022-01-25 10:26:28,791 INFO h.s.s.AppointmentService [http-nio-8080-exec-3] getAppointments - non async method
+2022-01-25 10:26:28,812 INFO h.s.l.LoggingInterceptor [http-nio-8080-exec-3] Method : getAppointments ended.
+2022-01-25 10:26:51,533 INFO h.s.s.LogJob [scheduling-1] Tue Jan 25 10:26:51 CET 2022

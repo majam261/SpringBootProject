@@ -1,0 +1,55 @@
+plugins {
+	id 'org.springframework.boot' version '2.6.3'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id 'idea'
+	id 'eclipse'
+}
+
+group = 'hr.sportshall'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+		mavenLocal()
+		maven {
+			url uri('libs')
+		}
+		maven {
+			url "https://plugins.gradle.org/m2/"
+		}
+		mavenCentral()
+}
+    
+
+configurations {
+  aspectjweaver
+}
+
+configurations.all {
+  exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+}
+
+
+dependencies {
+	implementation "org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}"
+	implementation("com.fasterxml.jackson.core:jackson-annotations:${jacksonVersion}")
+	implementation "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
+    implementation('org.springframework.boot:spring-boot-starter-log4j2')
+	testImplementation "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
+	implementation "org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}"
+	implementation("net.saliman:gradle-properties-plugin:${gradlePropVersion}")
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.5.2'
+	implementation "org.springframework:spring-aop:4.+"
+	implementation "org.aspectj:aspectjrt:1.+"
+	runtimeOnly("com.h2database:h2")
+	implementation "javax.inject:javax.inject"
+	implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml")
+	
+	aspectjweaver "org.aspectj:aspectjweaver:1.+"
+	runtimeOnly configurations.aspectjweaver.dependencies
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

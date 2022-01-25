@@ -1,0 +1,7 @@
+<AppointmentDto>
+  <id>502</id>
+  <name>kosarka 502</name>
+  <dateFrom>1643382000000</dateFrom>
+  <dateTo>1643385600000</dateTo>
+  <hall/>
+</AppointmentDto>
